@@ -13,5 +13,5 @@ elif A in ["2","02"]:
     import FILE2
 else:
     print('Dhur Halar Put 1&2 Input Kor😾')
-    time.slep(7)
+    time.sleep(7)
     exit()
