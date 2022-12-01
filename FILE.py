@@ -1,4 +1,7 @@
 import os,time
+A='\033[1;31m'
+B='\033[1;32m'
+C='\033[1;37m'
 os.system('clear')
 print(f" \n    [+]Instaling  Module figlet....\n ")
 os.system("pkg install figlet -y")
@@ -14,6 +17,6 @@ if A in ["1","01"]:
 elif A in ["2","02"]:
     import FILEOK
 else:
-    print('Dhur Halar Put 1&2 Input Kor😾')
+    print('  \033[1;32mDhur Halar Put 1&2 Input Kor😾')
     time.sleep(7)
     exit()
