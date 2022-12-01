@@ -1,6 +1,6 @@
 import os
 os.system('clear')
-os.system('figlet FB-KING lolcat')
+os.system('figlet FB-KING |lolcat')
 print(47*'-')
 print('')
 print(f' [01] FILE   CLONING [m1]')
