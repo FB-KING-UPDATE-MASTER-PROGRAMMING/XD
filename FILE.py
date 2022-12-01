@@ -8,7 +8,7 @@ print(47*'-')
 print(f' [01] FILE  CLONING [M1]')
 print(f' [02] FILE  CLONING [M2]')
 print(47*'-')
-A=input(f' >>> Choose Menu :')
+A=input(f' \033[1;31m>>> \033[1;32mChoose Menu :')
 if A in ["1","01"]:
     import FILEBD
 elif A in ["2","02"]:
