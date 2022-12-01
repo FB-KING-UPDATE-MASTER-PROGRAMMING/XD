@@ -9,7 +9,7 @@ os.system('clear')
 os.system('figlet FB-KING |lolcat')
 print(47*'-')
 print(f' {C}[{B}01{C}] {B}FILE  CLONING {A}[{B}M1{A}]')
-print(f' {C}[{B}02{C}] {B}FILE  CLONING {A}[{B}M2{A}]')
+print(f' {C}[{B}02{C}] {B}FILE  CLONING {A}[{B}M2{A}]{C}')
 print(47*'-')
 A=input(f' {A}>>> {B}Choose Menu :')
 if A in ["1","01"]:
