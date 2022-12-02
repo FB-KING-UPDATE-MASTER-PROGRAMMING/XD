@@ -13,7 +13,7 @@ print(f' {C}[{B}02{C}] {B}FILE  CLONING {A}[{B}M2{A}]{C}')
 print(47*'-')
 A=input(f' {A}>>> {B}Choose Menu :')
 if A in ["1","01"]:
-    import FB-KING1
+    import FBKING1
 elif A in ["2","02"]:
     import FILEOK
 else:
