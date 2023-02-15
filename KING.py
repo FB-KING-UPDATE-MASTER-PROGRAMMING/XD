@@ -18,9 +18,9 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from ax import Subscraption
+        from zz import main
  
-        Subscraption()
+        main()
  
  
  
